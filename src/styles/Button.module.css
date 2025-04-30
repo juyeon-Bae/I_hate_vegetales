@@ -1,0 +1,18 @@
+.btnContainer {
+    display: flex;
+    width: 336px;
+    height: 60px;
+    padding: 16px 134px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: #3B6DFF;
+    margin: auto;
+}
+
+.value {
+    font-size: 20px;
+    color: #FFF;
+    white-space: nowrap;
+}
