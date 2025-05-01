@@ -1,0 +1,22 @@
+.diaryCardAllContainer {
+    box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.10);
+    border-radius: 20px;
+    background: #FFF;
+    border: 1px solid #EDEDED;
+    padding: 18px;
+    width: 340px;
+
+}
+
+.titleText {
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.contentText {
+    color: #AAA;
+    font-size: 14px;
+    overflow-wrap: break-word;
+}
