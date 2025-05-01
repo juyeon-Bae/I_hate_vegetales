@@ -1,0 +1,63 @@
+.allContainer {
+    width: 390px;
+}
+
+.upload {
+    width: 102.126px;
+    height: 100px;
+    margin-bottom: 67px;
+}
+
+.mainContainer {
+    padding: 0 24px 0 27px;
+}
+
+.contentContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+
+.title {
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.title2 {
+    margin-bottom: 4px;
+}
+
+.writeBox::placeholder {
+    color: #AAA;
+    font-size: 16px;
+}
+
+.writeBox {
+    font-size: 16px;
+    outline: none;
+}
+
+.input {
+    display: flex;
+    width: 339px;
+    padding: 4px;
+    align-items: center;
+    gap: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #CCC;
+}
+
+.textarea {
+    display: flex;
+    height: 232px;
+    padding: 12px 8px;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 5px;
+    border: 1px solid var(--GRAY-B3B3B3, #B3B3B3);
+}
