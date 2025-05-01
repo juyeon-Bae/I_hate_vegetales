@@ -1,0 +1,30 @@
+.img {
+    width: 38px;
+    height: 38px;
+}
+
+.contentContainer {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.titleContainer {
+    display: flex;
+    gap: 170px;
+}
+
+.allContainer {
+    display: flex;
+    height: 90px;
+    padding: 20px 27px 20px 20px;
+    align-items: center;
+    gap: 14px;
+    align-self: stretch;
+    border: 0.5px solid #CDCDCD;
+    background: #F4F7FA;
+}
+
+.allContainer:nth-child(odd) {
+    background-color: white;
+}
