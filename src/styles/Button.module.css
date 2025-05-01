@@ -1,6 +1,6 @@
 .btnContainer {
     display: flex;
-    width: 336px;
+    width: 314px;
     height: 60px;
     padding: 16px 134px;
     justify-content: center;
@@ -9,6 +9,7 @@
     border-radius: 10px;
     background: #3B6DFF;
     margin: auto;
+    border: none;
 }
 
 .value {
