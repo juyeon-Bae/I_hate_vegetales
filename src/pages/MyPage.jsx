@@ -5,11 +5,11 @@ import { useNavigate } from "react-router-dom";
 export default function MyPage() {
     const navigation = useNavigate();
     const handleLogOut = () => {
-        navigation('/');
+        navigation('/Login');
     }
     return (
         <div style={{ width: "390px" }}>
-            <TopBar address={'/'} value={"마이페이지"} />
+            <TopBar address={'/Home'} value={"마이페이지"} />
             <div
                 onClick={handleLogOut}
                 style={{
