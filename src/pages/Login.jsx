@@ -18,7 +18,7 @@ export default function Login() {
 
 
     return (
-        <div className={styles.LoginAllContainer}>
+        <div className={styles.LoginAllContainer} >
             <img src={Logo} className={styles.Logo} />
             <form onSubmit={handleSubmit} className={styles.loginFormContainer}>
                 {/*아이디 입력*/}

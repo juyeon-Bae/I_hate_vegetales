@@ -20,7 +20,7 @@ export default function SignUp() {
         });
     };
     return (
-        <div style={{ width: "390px" }}>
+        <div style={{ width: "390px", margin: "auto" }}>
             <div style={{
                 fontSize: "24px", fontWeight: 700, lineHeight: "140%",
                 padding: "45px 38px"

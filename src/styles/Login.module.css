@@ -6,6 +6,11 @@
     align-items: center;
 }
 
+.LoginAllContainer {
+    width: 390px;
+    margin: auto;
+}
+
 .Logo {
     width: 134px;
     height: 182px;

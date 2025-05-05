@@ -1,5 +1,6 @@
 .allContainer {
     width: 390px;
+    margin: auto;
 }
 
 .upload {
@@ -10,6 +11,8 @@
 
 .mainContainer {
     padding: 0 24px 0 27px;
+    overflow-y: scroll;
+    height: 80vh;
 }
 
 .contentContainer {

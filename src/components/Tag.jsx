@@ -2,10 +2,11 @@
 export default function Tag({ value }) {
     return (
         <div style={{
-            padding: "3.5px 9px",
+            padding: "2.5px 9px",
             background: "#E0E8FF",
             borderRadius: "4px",
-            display: "inline-block"
+            display: "inline-block",
+            marginTop: "17px"
         }}>
             <span style={{
                 fontSize: "12px",

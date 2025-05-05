@@ -1,14 +1,16 @@
 import TopBar from "../components/TopBar";
 import Line from "../components/Line";
 import btn from "../assets/images/afterbtn.png"
+import NavBar from "../components/NavBar";
+import LogoutPopUp from "../components/LogOutCheckPopUp";
 import { useNavigate } from "react-router-dom";
 export default function MyPage() {
     const navigation = useNavigate();
     const handleLogOut = () => {
-        navigation('/Login');
+        navigation('/popup');
     }
     return (
-        <div style={{ width: "390px" }}>
+        <div style={{ width: "390px", margin: "auto" }}>
             <TopBar address={'/Home'} value={"마이페이지"} />
             <div
                 onClick={handleLogOut}
@@ -26,6 +28,7 @@ export default function MyPage() {
                 />
             </div>
             <Line />
+            <NavBar />
         </div>
     )
 }
