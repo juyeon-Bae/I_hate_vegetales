@@ -1,0 +1,22 @@
+.LoginAllContainer,
+.loginFormContainer,
+.btnContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Logo {
+    width: 134px;
+    height: 182px;
+    margin: 52px 0 35px 0;
+}
+
+.loginFormContainer {
+    gap: 25px;
+}
+
+.btnContainer {
+    gap: 28px;
+    margin-top: 157px;
+}
