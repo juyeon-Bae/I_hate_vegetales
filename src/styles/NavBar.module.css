@@ -1,0 +1,29 @@
+.nav {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 390px;
+    padding: 20px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border-top: 1px solid var(--Gray-gray-100, #E8E8E9);
+    background: var(--White, #FFF);
+}
+
+.ul {
+    display: flex;
+    gap: 60px;
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navBarImg {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 2px;
+}
