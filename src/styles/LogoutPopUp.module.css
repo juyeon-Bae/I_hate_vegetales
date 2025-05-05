@@ -1,0 +1,40 @@
+.backGround {
+    display: flex;
+    background: rgba(0, 0, 0, 0.20);
+    background: var(--Materials-Regular, linear-gradient(0deg, #383838 0%, #383838 100%), rgba(179, 179, 179, 0.82));
+    background-blend-mode: color-dodge, normal;
+    backdrop-filter: blur(40px);
+    height: 100vh;
+    z-index: -1;
+}
+
+.popupCardContainer {
+    width: 270px;
+    background-color: #FFF;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border-radius: 14px;
+}
+
+.logoutMent {
+    text-align: center;
+    padding: 46px 0;
+    font-size: 17px
+}
+
+.selectContainer {
+    border-top: 0.333px solid var(--Separators-Non-opaque, rgba(60, 60, 67, 0.36));
+    display: flex;
+}
+
+.back {
+    border-right: 0.333px solid var(--Separators-Non-opaque, rgba(60, 60, 67, 0.36));
+}
+
+.selectOption {
+    padding: 15px 37px 15px 35px;
+    color: #007AFF;
+    font-size: 17px;
+}
