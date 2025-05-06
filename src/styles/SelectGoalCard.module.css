@@ -1,0 +1,46 @@
+.cardContainer {
+    margin: auto;
+    display: flex;
+    width: 335px;
+    height: 62px;
+    padding: 11px 12px 11px 20px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    background: var(--FFF, #FFF);
+
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.10);
+}
+
+.img {
+    width: 40px;
+    height: 40px;
+}
+
+.selectText {
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.tagContainer {
+    display: flex;
+    gap: 6px;
+}
+
+.selectContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.p {
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 140%;
+}
+
+.partP {
+    margin-top: 80px;
+}
