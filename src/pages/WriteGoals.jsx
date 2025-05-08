@@ -43,6 +43,7 @@ export default function WriteGoals() {
                         onChange={handleChange}
                         name="content"
                         value={formData.content}
+                        required
                     />
                 </div>
 
