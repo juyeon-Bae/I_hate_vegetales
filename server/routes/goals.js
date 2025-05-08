@@ -24,4 +24,16 @@ router.get('/', async (req, res) => {
     }
 });
 
+// 목표 삭제 
+router.delete("/:id", async (req, res) => {
+    try {
+        const deleted = await Goal.findByIdAndDelete(req.params.id);
+        if (!deleted) return res.status(404).json({ message: "목표를 찾을 수 없습니다." });
+        res.status(200).json({ message: "삭제 완료" });
+    } catch (err) {
+        res.status(500).json({ message: "삭제 실패", error: err.message });
+    }
+});
+
+
 module.exports = router;
