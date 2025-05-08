@@ -8,7 +8,7 @@ const PORT = 5000;
 const commentRoutes = require('./routes/comment')
 
 app.use(cors());
-app.use(bodyParser.json());
+app.use(express.json());
 
 require('./config/db');
 
