@@ -18,7 +18,7 @@ export default function NavBar() {
     const menus = [
         {
             id: 1,
-            path: "/home",
+            path: "/",
             defaultIcon: Home,
             clickedIcon: HomeClicked,
             label: "홈"
@@ -32,7 +32,7 @@ export default function NavBar() {
         },
         {
             id: 3,
-            path: "/goal",
+            path: "/select",
             defaultIcon: goal,
             clickedIcon: goalClicked,
             label: "목표"
