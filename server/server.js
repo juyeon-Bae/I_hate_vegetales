@@ -6,6 +6,7 @@ const app = express();
 const PORT = 5000;
 
 const commentRoutes = require('./routes/comment')
+const goalRoutes = require('./routes/goals')
 
 app.use(cors());
 app.use(express.json());
@@ -14,6 +15,7 @@ require('./config/db');
 
 //router
 app.use('/comments', commentRoutes);
+app.use('/goal', goalRoutes)
 
 app.listen(PORT, () => {
     console.log(`server ${PORT}에서 실행중임`)
