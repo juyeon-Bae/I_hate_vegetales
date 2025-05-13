@@ -5,15 +5,15 @@ const cors = require('cors')
 const app = express();
 const PORT = 5000;
 
-const commentRoutes = require('./routes/comment')
-const goalRoutes = require('./routes/goals')
-const signupRoutes = require('./routes/signup')
-const loginRoutes = require('./routes/login')
+const commentRoutes = require('./routes/commentRoutes')
+const goalRoutes = require('./routes/goalsRoutes')
+const signupRoutes = require('./routes/signupRoutes')
+const loginRoutes = require('./routes/loginRoutes')
 
 app.use(cors());
 app.use(express.json());
 
-require('./config/db');
+require('./db/connect')
 
 //router
 app.use('/comments', commentRoutes);
